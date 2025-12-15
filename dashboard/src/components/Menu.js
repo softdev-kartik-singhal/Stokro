@@ -26,7 +26,7 @@ const Menu = () => {
   localStorage.removeItem("token");
 
   // 2️⃣ Redirect to auth frontend (different port)
-  window.location.href = "http://localhost:3000"; // change to your login port
+  window.location.href = "https://stokro-backend.onrender.com"; // change to your login port
 };
 
 
