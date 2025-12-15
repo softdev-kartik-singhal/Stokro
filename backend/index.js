@@ -22,7 +22,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    "https://stokro-frontend.onrender.com",
+    "https://stokro.onrender.com",
     "https://stokro-dashboard.onrender.com"
   ],
   credentials: true
