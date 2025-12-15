@@ -20,7 +20,13 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "https://stokro-frontend.onrender.com",
+    "https://stokro-dashboard.onrender.com"
+  ],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 
