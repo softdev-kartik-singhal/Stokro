@@ -10,7 +10,7 @@ function Team() {
                 <div className='col-2'></div>
                 <div className='col'>
                     
-                    <img className='mb-4' style={{width: "70%", borderRadius: "50%"}} src='./media/Images/Dp.png' alt='Developer image' />
+                    <img className='mb-4' style={{width: "70%", borderRadius: "50%"}} src='/media/Images/dp.png' alt='Developer image' />
                     <div className='mb-5 fs-4 text-muted'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kartik Singhal</div>
                 </div>
                 <div className='col text-muted'>
